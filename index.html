@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bản Phác Thảo Wireframe Trang Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BẢNG ĐIỀU KHIỂN & CHỌN CHẾ ĐỘ XEM -->
+  <header class="app-header">
+    <div class="container">
+      <h1>[WIREFRAME] Thiết Kế Bố Cục Trang Web</h1>
+      <p class="subtitle">Bản phác thảo chế độ xem Mobile (Di động) & Desktop (Màn hình lớn)</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ==========================================
+         PHẦN 1: DESKTOP VIEW (MÀN HÌNH LỚN >= 1024px)
+         ========================================== -->
+    <section class="wireframe-section">
+      <div class="section-title">
+        <h2>1. Chế Độ Xem Desktop (Desktop View - 1200px)</h2>
+        <span class="badge">Bố cục 2-3 Cột</span>
+      </div>
+
+      <div class="browser-frame desktop-view">
+        <div class="browser-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="url-bar">https://mywebsite.com/home</span>
+        </div>
+
+        <!-- Bắt đầu giao diện Desktop -->
+        <div class="site-wrapper">
+          <!-- Header & Navigation -->
+          <header class="site-header">
+            <div class="logo-box">[ LOGO ]</div>
+            <nav class="desktop-nav">
+              <a href="#" class="nav-item active">Trang Chủ</a>
+              <a href="#" class="nav-item">Giới Thiệu</a>
+              <a href="#" class="nav-item">Dịch Vụ</a>
+              <a href="#" class="nav-item">Liên Hệ</a>
+            </nav>
+            <button class="btn btn-outline">Đăng Nhập</button>
+          </header>
+
+          <!-- Hero Section (Landing Page) -->
+          <section class="hero-section">
+            <div class="hero-text">
+              <h2>Tiêu Đề Chính Nổi Bật Của Trang Web (Hero Headline)</h2>
+              <p>Mô tả ngắn gọn về giá trị sản phẩm hoặc dịch vụ. Đoạn văn này giúp thu hút sự chú ý của người dùng ngay từ lần đầu truy cập.</p>
+              <div class="hero-actions">
+                <button class="btn btn-primary">Hành Động Chính (CTA)</button>
+                <button class="btn btn-secondary">Tìm Hiểu Thêm</button>
+              </div>
+            </div>
+            <div class="image-placeholder hero-img">
+              <div class="placeholder-cross"></div>
+              <span>[ HÌNH ẢNH BANNER HERO ]</span>
+            </div>
+          </section>
+
+          <!-- Grid Section (3 Cột) -->
+          <section class="features-section">
+            <h3 class="section-heading">Các Tính Năng / Dịch Vụ Nổi Bật</h3>
+            <div class="grid-3">
+              <div class="card">
+                <div class="image-placeholder card-img">
+                  <div class="placeholder-cross"></div>
+                  <span>[ Ảnh 1 ]</span>
+                </div>
+                <h4>Tính Năng 01</h4>
+                <p>Nội dung mô tả tóm tắt cho tính năng hoặc dịch vụ thứ nhất.</p>
+              </div>
+              <div class="card">
+                <div class="image-placeholder card-img">
+                  <div class="placeholder-cross"></div>
+                  <span>[ Ảnh 2 ]</span>
+                </div>
+                <h4>Tính Năng 02</h4>
+                <p>Nội dung mô tả tóm tắt cho tính năng hoặc dịch vụ thứ hai.</p>
+              </div>
+              <div class="card">
+                <div class="image-placeholder card-img">
+                  <div class="placeholder-cross"></div>
+                  <span>[ Ảnh 3 ]</span>
+                </div>
+                <h4>Tính Năng 03</h4>
+                <p>Nội dung mô tả tóm tắt cho tính năng hoặc dịch vụ thứ ba.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Footer -->
+          <footer class="site-footer">
+            <div class="footer-col">[ Logo & Bản quyền ]</div>
+            <div class="footer-col">[ Liên kết điều hướng ]</div>
+            <div class="footer-col">[ Mạng xã hội ]</div>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         PHẦN 2: MOBILE VIEW (DI ĐỘNG <= 480px)
+         ========================================== -->
+    <section class="wireframe-section">
+      <div class="section-title">
+        <h2>2. Chế Độ Xem Di Động (Mobile View - 375px)</h2>
+        <span class="badge">Bố cục Cột Đơn Dọc</span>
+      </div>
+
+      <div class="mobile-wrapper-outer">
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+
+          <!-- Bắt đầu giao diện Mobile -->
+          <div class="site-wrapper mobile-site">
+            <!-- Mobile Header -->
+            <header class="site-header mobile-header">
+              <div class="logo-box">[ LOGO ]</div>
+              <button class="hamburger-btn">☰</button>
+            </header>
+
+            <!-- Mobile Hero -->
+            <section class="hero-section mobile-hero">
+              <div class="image-placeholder hero-img-mobile">
+                <div class="placeholder-cross"></div>
+                <span>[ HÌNH ẢNH BANNER ]</span>
+              </div>
+              <div class="hero-text">
+                <h2>Tiêu Đề Chính Nổi Bật</h2>
+                <p>Nội dung mô tả tóm tắt được thu gọn phù hợp với màn hình di động.</p>
